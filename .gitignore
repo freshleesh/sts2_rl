@@ -1,0 +1,12 @@
+# build output
+headless/bin/
+headless/obj/
+# game files pinned by tools/pin_game.py — copyrighted, never commit
+headless/lib/
+# scratch from early experiments
+headless/old/
+# training outputs (checkpoints are tied to a game version; copy them by hand if needed)
+runs/
+__pycache__/
+*.pyc
+*.pt
